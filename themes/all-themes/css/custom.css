@@ -1,0 +1,79 @@
+span.required,div.errorMessage {color:red;}
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.ipt-edit {
+    display: inline-block;
+    width: 420px;
+}
+
+.side-left ul{    padding: 0;  list-style: none;  margin: 0;}
+.side-left .panel-title a{    color: #000;  font-size: 15px;}
+a.collapsed i:before {    content: "\f055";  }
+
+.whistle-title.txt-1{
+    width:100%;
+    overflow:auto;
+    border:1px solid #cccccc;
+    padding:4px;
+    outline:none;
+}
+
+.whistle-title.txt-1:focus {
+    border:1px solid #ff8b03;
+}
+
+.modal-dialog {
+    width: 75%;
+}
+
+#update-profile-form .frmlogin {
+    width: 570px;
+}
+
+#update-profile-form .frmlogin .item-edit label {
+    width: 140px;
+}
+
+#forgot_password-form .frmlogin {
+    width: 570px;
+}
+
+#forgot_password-form .frmlogin .item-edit label {
+    width: 140px;
+}
+
+.document img {
+    max-width: 100%;
+}
+
+ul.submenu .active-year>a {
+    color: #ed8f21;
+}
+
+.menu ul li{position: relative;}
+
+.menu ul ul {
+    position: absolute;
+    left: 100%;
+    top: 0;
+}
+.menu ul li:hover>ul {
+    display: block!important;
+}
+
+.item-edit .ui-datepicker-trigger {
+    position: absolute;
+}
+
+
+

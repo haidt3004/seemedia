@@ -1,0 +1,142 @@
+/* haidt - your custom css here*/
+.w-80-per{
+	width: 80%;
+	float:left;
+}
+
+.export-form .form-horizontal .control-label {
+    margin-bottom: 0;
+    padding-top: 7px;
+    font-size: 11px;
+    text-align: right;
+}
+
+/*color box close button position*/
+#colorbox #cboxClose
+{
+	top: 0;
+	right: 0;
+}
+#cboxLoadedContent{
+	margin-top:28px;
+	margin-bottom:0;
+}
+
+#main_box .dropdown-menu {
+	max-height: 240px;
+	overflow-y: scroll;
+}
+
+div#audience-grid {
+    padding-top: 10px;
+}
+
+.audience-view{
+	width: 50%;
+}
+
+.audience-view tr th {
+	text-align: center;
+}
+
+.audience-view tr td {
+	vertical-align: middle;
+}
+
+
+/*listing*/
+
+#category-type{
+	color:red;
+	font-size: 12px;
+    font-weight: bold;
+}
+
+.audience-item input{
+	margin-right: 5px;
+}
+
+.audience-item label{
+}
+
+/*haidt - multi select filter*/
+#select-merchant-list.multiselect-container>li>a {
+	padding: 0px 10px;
+}
+
+#select-merchant-list.btn.btn-default.multiselect-clear-filter {
+	padding: 2px 10px;
+}
+
+#select-merchant-list .multiselect-search{
+	margin: 0 !important;
+	height: 40px;
+}
+
+#select-merchant-list .dropdown-menu li a, #select-merchant-list .dropdown-menu li a:hover,#select-merchant-list .dropdown-menu .active a,#select-merchant-list .dropdown-menu .active a:hover {
+	padding-right: 10px;
+	line-height: 22px;
+}
+
+.coupon-view ul{
+	padding-left: 20px;
+}
+
+#select-merchant-list .multiselect-container > li > a { 
+	white-space: normal;
+}
+
+#select-merchant-list .multiselect-container.dropdown-menu {
+	width: 450px;
+}
+
+.filter-select-list i.glyphicon.glyphicon-remove-circle {
+	font-size: 20px;
+}
+
+.filter-select-list .radio input {
+	display: none;
+}
+
+
+fieldset.select-district {
+    min-height: 200px;
+}
+
+#Listings_region label{
+	float:none;
+}
+
+.district-item input {
+    float: left;
+    margin-right: 5px;
+}
+
+.district-item label {
+    margin-top: 2px;
+}
+
+.color-w  {
+     color: white !important; 
+}
+
+img.ui-datepicker-trigger {
+	position: absolute;
+	right: 15px;
+	top: 2px;
+}
+
+/*DANH CHO MULTIPLE LANGUAGE*/
+div.form div.removeError input, 
+div.form div.removeError textarea, 
+div.form div.removeError select, 
+div.form input.removeError , 
+div.form textarea.removeError  , 
+div.form select.removeError   {
+    border-color: #CDCDCD !important;
+        background-color: white !important;
+}
+
+label.removeError, div.form span.removeError {
+        color: #333333 !important;
+}

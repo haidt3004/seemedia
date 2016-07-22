@@ -1,0 +1,51 @@
+.thumbnail-h {
+	position: relative !important;
+	text-align: center;
+	margin-right: 10px;
+	vertical-align: top;
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	/*width:160px;*/
+	display: inline-block;
+}
+
+.thumbnail-h .del-icon-h:hover {
+	background-position: 0px !important;
+	cursor: pointer !important;
+}
+.thumbnail-h .del-icon-h {
+	position: absolute !important;
+	border: medium none;
+	right: -8px;
+	top: -8px;
+	cursor: pointer !important;
+	padding:0px;
+}
+
+.ui-widget-content .h-upload-image-wrap a {
+    color: white !important;
+}
+
+.color-btn-white > a{
+	color: white !important;
+}
+
+.color-btn-white > a > span{
+	color: white !important;
+}
+
+.line {
+	width: 100%;
+	border-bottom: 1px solid #bbb;
+	margin: 10px 0px;
+}
+
+.h-text {
+  padding-top: 5px;
+  font-size: 12px;
+}

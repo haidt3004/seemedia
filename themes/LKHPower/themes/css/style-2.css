@@ -1,0 +1,61 @@
+body{background:#fff}
+
+/* header */
+.header-container{color:#262626;padding:10px 0;}
+.header-container .wrapper{position:relative;}
+.header-container a:link,
+.header-container a:visited{color:#333;}
+.header-container a:hover{color:#000;}
+.header-container .logo{float:left;}
+.header-container .group{font-family:Arial,Helvetica,sans-serif;line-height:1.2;padding-top:8px;text-align:right;}
+.header-container .group p{margin:0;}
+.header-container .group address{font-style:normal;margin-bottom:11px;}
+.header-container .quick-search{border:#d9711a solid 1px;width:207px;display:inline-block;}
+.header-container .quick-search .text,
+.header-container .quick-search .btn-search{border:none;height:23px;line-height:23px;padding:0;}
+.header-container .quick-search .text{color:#262626;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:20px;width:165px;outline:none;}
+.header-container .quick-search .btn-search{background:url(../img/ico-search.png) no-repeat center center;text-indent:-1984em;width:30px;outline:none;}
+.header-container .quick-search .btn-search:hover{background-color:#f1f1f1;}
+.header-container .nav-top-2{float:right;width:70%;text-align:right;}
+.header-container{color:#262626;padding:10px 0;}
+
+/* footer */
+.copyright {padding: 10px 0;}
+.footer-container{background:#0e0e0e;border-top:#2d2d2d solid 1px;color:#fff;font-family:'Lato',Arial,Helvetica,sans-serif;font-size:11px;text-align:center;}
+.footer-container a:link,
+.footer-container a:visited{color:#fff;}
+.footer-container a:hover{color:#ff9236;text-decoration:none;}
+.footer-container .verz{background:url(../img/verz-logo-2.png) no-repeat right 0;color:#ff9236;font-weight:bold;padding-right:35px;}
+.footer-links{background:#181818 url(../img/bg-footer-links.jpg) repeat-x 0 top;color:#fff;font-family:'Lato',Arial,Helvetica,sans-serif;font-size:11px;padding-bottom:30px;    text-align: left;}
+.footer-links a:link,
+.footer-links a:visited{color:#666;}
+.footer-links a:hover{color:#ff9236;}
+.footer-links h4{font-size:14px;margin:20px 0 15px;text-transform:uppercase;}
+.footer-links ul{list-style:none;margin:0 -80px 0 0;padding:0;}
+.footer-links ul li{border-bottom:#282828 solid 1px;float:left;margin-right:80px;padding:5px 10px;position:relative;width:165px;}
+.footer-links ul li:before{background:#ff9236;content:"";display:block;height:4px;left:0;position:absolute;top:10px;width:4px;}
+.footer-links .group{float:left;overflow:hidden;width:480px;}
+.newsletter{float:right;    /* padding-left: 265px; */padding-top:20px;width:239px;clear:both;}
+.newsletter h4{color:#fff;font-size:11px;margin:0;text-transform:uppercase;}
+.newsletter p{margin:0;}
+.newsletter-form{margin-top:5px;}
+.newsletter-form .wysija-input,
+.newsletter-form .wysija-submit{float:left;font-size:11px;margin:0;}
+.newsletter-form .wysija-input{border:none;border-radius:0;font-size:11px;font-style:italic;height:24px;padding:0 5px;width:138px;}
+.newsletter-form .wysija-submit{background:#445790;border:none;border-left:none;color:#fff;height:24px;padding:0 10px;text-transform:uppercase;}
+.newsletter-form .wysija-submit:hover{background:#2a4185;}
+.menu{background:url(../img/bg-1.png) repeat 0 0;font-family:Arial,Helvetica,sans-serif;font-size:13px;font-weight:bold;position:relative;text-transform:capitalize;z-index:10;}
+.menu a:link,
+.menu a:visited{color:#fff;-webkit-transition:background-color 1000ms linear;-moz-transition:background-color 1000ms linear;-o-transition:background-color 1000ms linear;-ms-transition:background-color 1000ms linear;transition:background-color 1000ms linear;}
+.menu a:hover,
+.menu .active a{background:#2a2e51;}
+.menu ul{display:table;list-style:none;margin:0;padding:0;text-align:center;width:100%;}
+.menu ul li{display:table-cell;}
+.menu ul li a{display:block;margin-right:1px;padding:10px;}
+.menu ul li.last a{margin-right:0;}
+.menu ul ul{background:#0c0f2a!important;display:none;font-weight:normal;position:absolute;left:0;min-width:200px;text-align:left;top:100%;}
+.menu ul ul li{border-bottom:#2c315d dotted 1px;display:block;}
+.menu ul ul li a{background:none!important;border:none!important;margin:0;}
+.menu ul ul li a:hover{background:#101a53!important;}
+.menu a.expanded{background:#0c0f2a;}
+.menu .inner{position:relative;}

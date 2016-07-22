@@ -1,0 +1,29 @@
+body{background:url(../img/bg-tile.jpg) 0 0 repeat-x;font:13px "HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;color:#636363;-webkit-font-smoothing:antialiased; /* Fix for webkit rendering */-webkit-text-size-adjust:100%;}
+.header-top{background:url(../img/main-navi-bg.jpg) 0 0 no-repeat;position:relative;z-index:9999;padding-top:15px;padding-bottom:15px;}
+.logo{float:left;width:19%;}
+.header-right{float:right;width:80%;}
+.dropdown button{border:#ddd solid 1px;background:none;color:#fff;border-radius:3px;padding:4px 13px;font-family:'Open Sans',Arial,Helvetica,sans-serif;text-transform:uppercase;font-size:10px;letter-spacing:1px;outline:none;}
+ul.dropdown-menu{border:none;border-radius:0;-webkit-box-shadow:0 6px 12px rgba(0,0,0,0);box-shadow:0 6px 12px rgba(0,0,0,0);width:106px;min-width:inherit;padding:4px 10px;}
+ul.dropdown-menu li{list-style:none;padding:0;margin:0;color:#06344e;font-family:'Open Sans',Arial,Helvetica,sans-serif;font-size:10px;letter-spacing:1px;line-height:20px;min-height:20px;text-transform:uppercase;background:url(../img/bg-line.png) no-repeat center bottom;}
+.menu{margin:0;list-style:none;padding:0;}
+.menu li{list-style:none;float:left;background:url(../img/main-navi-divider.jpg) no-repeat left center;padding-left:16px;padding-top:0px;padding-bottom:17px;padding-right:10px;position:relative;}
+.menu li a{display:block;color:#fff;text-transform:uppercase;font-size:12px;}
+.menu li a:hover{ color:#A8A8A8}
+.menu ul{background:#015289;border-radius:0 0 5px 5px;display:none;font-size:13px;margin:0;min-width:210px;padding:0;position:absolute;text-transform:capitalize;left:0;top:31px;padding-top:2px;padding-bottom:10px;background:rgba(1,82,137,0.85);}
+.menu ul li{float:none;text-align:left;background:none;padding:8px;    /* padding-top: 0; */margin:0;border-bottom:1px solid #1F90DB;margin:0 5px;}
+.menu ul a,
+.menu ul .last a{}
+.menu ul a:before{display:none;}
+nav.nav{clear:both;padding-top:25px;}
+.header-right .dropdown{float:left;}
+div#login{float:right;padding-right:17px;}
+.footer-top{background-color:#005289;color:#ffffff;    /* width: 960px; */height:46px;line-height:46px;font-size:11px;text-transform:uppercase;padding:0px 10px;}
+.footer-top a{color:#fff;text-decoration:underline;}
+.footer-top a:hover{color:#e27900;}
+span.caret {
+    border-top: 6px solid #FFF;
+}
+
+.side-left ul{    padding: 0;  list-style: none;  margin: 0;}
+.side-left .panel-title a{    color: #000;  font-size: 15px;}
+a.collapsed i:before {    content: "\f055";  }

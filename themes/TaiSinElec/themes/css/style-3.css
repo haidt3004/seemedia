@@ -1,0 +1,67 @@
+body{background:#fff}
+.main{border-top:2px solid #ccc;}
+.footer-container{background:url(../img/bg-shadow-1.jpg) no-repeat center 0;font-size:11px;padding:12px 0;text-align:center;}
+.footer-container p{margin:3px 0 0;}
+.footer-container .verz{background:url(../img/verz-logo-3.png) no-repeat right 0;color:#be5527;padding-right:28px;}
+.footer-container a:link,
+.footer-container a:visited{color:#555;padding:0 3px;}
+.footer-container a:hover,
+.footer-container a.active{color:#be5527;}
+
+/* header */
+.header-container{border-bottom:#cecac7 solid 1px;margin-bottom:1px;padding-top:10px;position:relative;z-index:1000;}
+.header-container .logo{float:left;}
+.header-container .quick-search{border:#d6d8d8 solid 1px;box-shadow:#d6d8d8 0 -1px 3px inset;float:right;margin-left:5px;margin-top:10px;width:194px}
+.header-container .quick-search .text,
+.header-container .quick-search .btn-search{background:none;border:none;float:right;height:22px;line-height:22px;padding:0 5px;width:160px;}
+.header-container .quick-search .text:focus{box-shadow:none;}
+.header-container .quick-search .btn-search{background:url(../img/ico-search.png) no-repeat center center;padding:0;text-indent:-1984em;width:22px;}
+.header-container .qtrans_language_chooser{float:right;font-size:11px;list-style:none;margin:0;padding:16px 0 0;text-transform:uppercase;}
+.header-container .qtrans_language_chooser li{border-right:#555 solid 1px;float:left;line-height:1;padding:0 5px;}
+.header-container .qtrans_language_chooser li.last{border-right:none;}
+.header-container .qtrans_language_chooser li a:link,
+.header-container .qtrans_language_chooser li a:visited{color:#555;}
+.header-container .qtrans_language_chooser li a:hover,
+.header-container .qtrans_language_chooser li.active a:link,
+.header-container .qtrans_language_chooser li.active a:visited{color:#be5527;}
+.menu{display:table;list-style:none;margin:9px 0 0;padding:0;width:100%;font-size:13px;}
+.menu li{display:table-cell;text-align:center;text-transform:uppercase;}
+.menu li a{display:block;height:30px;line-height:30px;padding:0 5px;}
+.menu li a:link,
+.menu li a:visited{color:#555;}
+.menu li a:hover,
+.menu li.active > a:link,
+.menu li.active a:visited{color:#be5527;}
+.menu .inner{position:relative;}
+.menu ul{background:#fff;border:1px solid #cecac7;border-top:none;display:none;left:0;margin:0;padding:0;position:absolute;top:100%;width:200px;}
+.menu ul li{border-bottom:#ccc dotted 1px;display:block;text-align:left;}
+.menu ul li.last{border-bottom:none;}
+.menu ul li a{height:auto;line-height:normal;padding:10px 10px;}
+
+/* pagination doccument */
+.document-pagination-box-top,.news-pagination-box-top {
+    text-align: right;
+}
+
+.document-pagination-box-top,.news-pagination-box-top .pagination a {
+    color: #ed8f21;
+    font-weight: bold;
+}
+.news-list-right {
+    margin-top: -20px;
+}
+.news-list-detail-right {
+    margin-top: 0;
+}
+
+.news-list-detail-right .maincontent {
+    margin-bottom: 0;
+}
+
+.news-list-left {
+    margin-top: 0;
+}
+
+.side-left ul{    padding: 0;  list-style: none;  margin: 0;}
+.side-left .panel-title a{    color: #000;  font-size: 15px;}
+a.collapsed i:before {    content: "\f055";  }
